@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import Home from "./components/Home"
 
-
-class App extends Component {
+export class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Welcome to your wonderful meme app</h1>
+      <div>
+          <Home />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
