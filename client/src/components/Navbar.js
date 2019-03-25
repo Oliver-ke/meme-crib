@@ -11,14 +11,20 @@ const AppNavBar = () => {
 			<Navbar color="dark" dark expand="sm" className="mb-5">
 				<Container>
 					<NavbarBrand href="/">
-						<span style={{ color: 'white', fontWeight: 'bold' }}>Fev:</span>
-						<span style={{ fontSize: '24px', fontWeight: 'bold', color: '#008100' }}>:Meme</span>
+						<span style={{ color: 'white', fontWeight: 'bold' }}>Meme:</span>
+						<span style={{ fontSize: '24px', fontWeight: 'bold', color: '#008100' }}>Crib</span>
 					</NavbarBrand>
 					<NavbarToggler onClick={toggle} />
 					<Collapse isOpen={isOpen} navbar>
 						<Nav style={{ padding: '5px 0', fontSize: '18px' }} className="ml-auto" navbar>
 							<NavItem>
 								<NavLink href="/">Home</NavLink>
+							</NavItem>
+							<NavItem>
+								<NavLink href="/about">About</NavLink>
+							</NavItem>
+							<NavItem>
+								<NavLink href="/contact">Contact</NavLink>
 							</NavItem>
 							<NavItem>
 								<NavLink href="/">Find Meme</NavLink>
