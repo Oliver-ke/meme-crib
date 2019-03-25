@@ -24,11 +24,12 @@ class Contact extends Component {
        
         <FormGroup>
           <Label for="exampleText">Text Area</Label>
-          <Input type="textarea" name="text" id="exampleText" />
+          <Input className="text_area" type="textarea" name="text" id="exampleText" />
         </FormGroup>
     
-        
-        <Button>Submit</Button>
+        <Button color="success">Submit</Button>{' '}
+        <Button outline color="secondary">reset</Button>{' '}
+
       </Form>
                 
             </div>
