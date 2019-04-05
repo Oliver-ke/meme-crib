@@ -1,0 +1,3 @@
+.about_banner{width: 80%; height: auto; position: absolute}
+.info_section{background-color:rgb(33, 37, 41); height: 300px; width:300px; position: relative; float: right; margin-top: 50px; padding: 20px}
+.info_section h4{color: #fff; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;}
