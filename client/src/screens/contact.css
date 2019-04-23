@@ -1,0 +1,5 @@
+form{width: 100%; max-width: 500px;margin: 0px auto; }
+.form_field{width: 100%; max-width: 800px; margin-bottom: 10px; height:  35px;}
+form input .text_area{height: 1000%}
+label{float: left; margin-left: 10px;}
+form input{background: transparent}
